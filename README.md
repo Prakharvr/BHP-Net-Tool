@@ -20,8 +20,8 @@ The tool's functionality is controlled through command-line arguments:
 -u or --upload: Upload a file to the target machine.
 Examples:
 
-Run in command shell mode: python script.py -c -t 192.168.1.100
-Execute a command: python script.py -e "ls -l" -t 192.168.1.100
-Listen for incoming connections: python script.py -l -p 8080
-Upload a file: python script.py -u myfile.txt -t 192.168.1.100
+Run in command shell mode: python script.py -c -t 127.0.0.1
+Execute a command: python script.py -e "ls -l" -t 127.0.0.1
+Listen for incoming connections: python script.py -l -p 5555
+Upload a file: python script.py -u myfile.txt -t 127.0.0.1
 Please note that this tool is intended for educational purposes and network exploration. Ensure that you have the necessary permissions before using it in any network environment
